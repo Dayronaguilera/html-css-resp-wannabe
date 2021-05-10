@@ -71,3 +71,20 @@ img {
 .clear {
   clear: both;
 }
+
+/* Start responsive mobile */
+
+@media screen and (max-width: 575px) {
+  .container div{
+    width: 100%;
+    min-width: 500px;
+    padding: 10px 0px;
+    margin-top: 0px;
+    
+  }
+  #lezioni, #why{
+    background-color: rgba(224, 169, 97, 0.5);
+  }
+ 
+
+}
