@@ -75,16 +75,22 @@ img {
 /* Start responsive mobile */
 
 @media screen and (max-width: 575px) {
+  .row{
+    width: auto;
+  }
   .container div{
-    width: 100%;
-    min-width: 500px;
-    padding: 10px 0px;
     margin-top: 0px;
-    
+    padding: 10px 5px;
+  }
+    #lezioni .row>.left,
+    #lezioni .row>.right,
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right{
+
+    width: 100%;
   }
   #lezioni, #why{
     background-color: rgba(224, 169, 97, 0.5);
   }
- 
-
 }
